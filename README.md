@@ -9,8 +9,8 @@ A simple and modern alert pop-up with customizable text and dark mode.
    <link rel="stylesheet" href="css/style.css">
    ```
 
-   2. Include the JS file at the bottom of your HTML body
+ 2. Include the JS file at the bottom of your HTML body
       ```js
-      
-<script src="js/script.js"></script> ```
+      <script src="js/script.js"></script> 
+```
 
