@@ -29,27 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-
-
-
-
-
-
-
-
 const elpop=document.querySelector('.elpop');const pop =elpop.querySelector('.pop');elpop.addEventListener('mouseenter',()=>{pop.classList.toggle('povery');});elpop.addEventListener('mouseleave',()=>{pop.classList.toggle('fade-out');});
-
-
-
-
-
-
-
-
-
-
-
-
 
 const navLinks = document.querySelectorAll('.nav-link');
   const navLinkst = document.querySelectorAll('.nav-link2');
@@ -109,11 +89,6 @@ const navLinks = document.querySelectorAll('.nav-link');
       }, 2000);
     });
 
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
   const menuToggle = document.getElementById('menu-toggle');
   const offcanvasMenu = document.querySelector('.offcanvas');
@@ -134,13 +109,6 @@ document.addEventListener('DOMContentLoaded', function () {
     content.classList.remove('content-open');
   });
 });
-
-
-
-
-
-
-
 
 function toggleDarkMode() {
       const body = document.body;
@@ -176,7 +144,7 @@ const bgrids = document.querySelectorAll('.bento-grid');
        bgrid.classList.toggle('light-mode');
       });
       
-      const bcells = document.querySelectorAll('.bento-cell');
+const bcells = document.querySelectorAll('.bento-cell');
       bcells.forEach(bcell => {
           bcell.classList.toggle('dark-mode');
       });
@@ -239,10 +207,4 @@ function onYes() {
 // Function for No button
 function onNo() {
   closeModal();
-}
-
-// Dark mode toggle function
-function toggleDarkMode() {
-  document.body.classList.toggle("dark-mode");
-  darkModeToggle.textContent = document.body.classList.contains("dark-mode") ? "Light Mode" : "Dark Mode";
 }
